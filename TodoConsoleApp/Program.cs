@@ -10,6 +10,15 @@ namespace TodoConsoleApp
     {
         static void Main(string[] args)
         {
+            bool running = true;
+
+            while (running)
+            {    
+                Console.WriteLine("1. Add a task");
+                Console.WriteLine("2. Mark as done");
+                Console.WriteLine("3. See all tasks");
+                Console.WriteLine("4. Exit");
+            }
         }
     }
 }
