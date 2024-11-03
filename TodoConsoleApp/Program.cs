@@ -18,6 +18,24 @@ namespace TodoConsoleApp
                 Console.WriteLine("2. Mark as done");
                 Console.WriteLine("3. See all tasks");
                 Console.WriteLine("4. Exit");
+
+                string menuOptionChoice = Console.ReadLine();
+
+                switch (menuOptionChoice)
+                {
+                    case "1":
+                        break;
+                    
+                    case "2":
+                        break;
+                    
+                    case "3":
+                        break;
+
+                    case "4":
+                        running = false;
+                        break;
+                }
             }
         }
     }
